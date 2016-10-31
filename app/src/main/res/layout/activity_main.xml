@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.campbellapps.christiancampbell.todolist2.MainActivity"
+    android:orientation="vertical"
+    android:background="#e4e0c0">
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToDo List"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:fontFamily="monospace"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="23sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Welcome to ToDo. This app will help you manage your everyday life. Simply add a task by clicking the add button on the next screen. You can delete/complete a note by long-touching the desired item. You can edit a task by touching the task. Happy Planning!"
+
+        />
+
+    <Button
+        android:id="@+id/main_button_groceries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#052151"
+        android:textColor="@android:color/background_light"
+        />
+
+</LinearLayout>
